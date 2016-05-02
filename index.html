@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Bootstrap: Grid System</title>
+  <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/main.css">
+
+    <!-- HTML5 Shim and Respond.js Agrega soporte para elementos HTML5 y media quieries en IE8 -->
+    <!-- ADVERTENCIA: Respond.js no soporta que ejecutes tu código via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->	
+</head>
+<body>
+	<!-- Inserta tu código aqui -->
+  <header>
+    <div class="container-fluid">
+      <div class="row">
+        
+          <nav class="navbar navbar-default bg-nav ">
+  
+    <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header hamburguesa-brand col-md-6 ">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button><!--Hamburguesa super Chiqui-->
+            <a class="navbar-brand text-white" href="#">Licho Blog</a>
+          </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav col-md-3">
+              <li><a class="text-white" href="#">Noticias <span class="sr-only">(current)</span></a></li>
+              <li><a class="text-white" href="#">Contacto</a></li>
+            </ul>
+            <form class="navbar-form navbar-left col-md-3" role="search">
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Search">
+            </div>
+            <button type="submit" class="btn btn-search">Buscar</button>
+            </form>      
+          </div>
+        </nav>
+        
+        
+      </div>
+      <div class="row">
+        <ul class="nav nav-tabs col-md-12">
+          <li role="presentation" class="active"><a href="index.html">Home</a></li>
+          <li role="presentation"><a href="about.html">Sobre Mi</a></li>
+          <li role="presentation"><a href="like">Mis Gustos</a></li>
+        </ul>
+      </div>
+    </div>
+  </header>
+  <section>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-6">
+          <h3><span class="label label-default col-md-3">Presentación</span></h3>
+          <br>
+          <h5 class="detail text-purple">Blog|<h6 class="detail-chic text-purple">publicado el 28 abril 2016</h6></h5>
+          <h3 class="text-purple">Conozcame Más</h3>
+          <p class="text-purple">Me Llamo Lissette Salas Ojeda, soy Chilena, vivo en Santiago. Futura <strong><em>Front-end Developer</em></strong>, tengo conocimientos básicos en Java y Phyton (POO, MCV,) conexión a la base de datos con JDBC y Diseño en bases de datos relacionales (MER, manipulación de tablas con SQL y creación de bases de datos con manejos básicos de sus datos con PL/SQL). Todo lo que sé fue adquirido por estudios anteriores inconclusos y autodidactas cómo mi introducción a Phyton.</p>
+
+          <h3><span class="label label-default col-md-3">Información</span></h3><br>
+          <h5 class="detail text-purple">Artículo|<h6 class="detail-chic text-purple">publicado el 29 abril 2016</h6></h5>
+          <h3 class="text-purple">¿Cuáles son los paises que emiten más SPAM?</h3>
+          <img src="image/spam.jpg" height="300" width="400" alt="" class="spam">
+          <p class="text-purple">
+            Un informe de la empresa de seguridad informática SOPHOS ha puesto de manifiesto cuáles son los países desde los que se lanza más spam. Por primera vez después de muchos años Estados Unidos ha dejado de ser el líder. ¿Quién está en lo alto del pódium?
+          </p>
+          <a href="seeMore.html"> <span class="glyphicon glyphicon-folder-open" aria-hidden="true"></span>Ver Más...</a>
+
+        </div>
+
+        <div class="col-md-4">
+          <h3><span class="label label-default">Entretención</span></h3>
+          <h5 class="detail">Artículo|<h6 class="detail-chic">publicado el 29 abril 2016</h6></h5>
+          <h3 class="text-purple">Música Para PROGRAMAR</h3>
+          <p class="text-purple">
+            Bueno Chic@s, aquí les comparto un concierto de <strong>Hardwell</strong>, de su gira del año pasado que la verdad, lo encuentro pero SUPER MOTIVANTE a la hora de ponerse a programar, y no sólo para la inspiración, si no que para tomar un poco más de velocidad, a los que somos un poco lentos en cómo vamos encaminando en diseño del proyecto.
+            Ojalá les guste!!!.
+          </p>
+          <iframe width="420" height="315"
+            src="http://https://www.youtube.com/embed/watch?v=rhUvo4xj2oU?autoplay=1">
+          </iframe>
+          <a href="spam.html"> <span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span>Me Gusta</a>
+
+        </div>
+        <div class="col-md-2 links">
+          <h3><span class="label label-default">LINKS de interés</span></h3>
+          <a href="http://getbootstrap.com/">Boostrap</a>
+          <a href="http://www.w3schools.com/">Aprende HTML</a>
+          <a href="www.laboratoria.la">Descubre Laboratoria</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+
+	<!-- Incluir todos tus scripts apartir de este punto -->
+    <!-- jQuery (necesario para que funcionen los componentes de Bootstrap) -->
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>

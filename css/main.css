@@ -1,0 +1,61 @@
+/* Inserta tu código aqui */
+
+h3,h6,h5,button,a 
+{
+	font-family: Quicksand;
+
+}
+
+
+.detail
+{
+	font-size: 14px;
+	display:block;
+	
+}
+.label
+{
+	display:inline;
+}
+
+.detail-chic
+{
+	display:table;
+}
+
+.links a 
+{
+	display:block;
+}
+
+.bg-nav
+{
+	background-color: #d9185f;
+}
+.text-white
+{
+	color:white;
+}
+
+.navbar-header a 
+{
+	color:white;
+}
+.btn-search
+{
+	background-color: #63d9cb;
+}
+
+.text-purple
+{
+	color:#68076E;
+}
+section
+{
+	padding-bottom: 50px;
+}
+.bg-tabs
+{
+	background-color:#68076E;
+	 
+}
